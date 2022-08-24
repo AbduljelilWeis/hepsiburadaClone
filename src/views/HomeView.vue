@@ -1,9 +1,5 @@
-<script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <dev class="w-full grid grid-cols-12 ">Welcome</dev>
 </template>
