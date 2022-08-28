@@ -1,10 +1,12 @@
 <script setup>
-  import Topbar from "@/components/layout/topbar/V1.vue";
+  import TopBar from "@/components/layout/topBarParts/topLinks/V2.vue";
 </script>
 <template>
   <dev class="w-full grid grid-cols-12 ">
-    <Topbar/>
-  <main class="col-start-1 col-span-12 bg-green-500 grid grid-cols-12 h-screen">main</main>
+    <TopBar/>
+  <main class="col-start-1 col-span-12 bg-green-500 grid grid-cols-12 h-screen">
+    main
+  </main>
   </dev>
 
       
