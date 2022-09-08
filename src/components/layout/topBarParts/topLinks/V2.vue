@@ -1,9 +1,10 @@
 <script setup>
     import Logo from "@/components/layout/topBarParts/logoSection/V1.vue";
+    import SearchIcon from "@/components/icons/search.vue";
 </script>
 <template>
-    <header class=" col-start-1 col-span-full bg-[FFFFFF] grid grid-cols-12 h-full">
-        <div class="col-start-1 col-span-12 flex-col">
+    <header class=" col-span-12 bg-white grid grid-cols-12 h-full">
+        <div class="col-span-12 flex-col">
             <div class="flex gap-6 justify-end text-[11px] font-medium pt-3 mx-7">
                 <div>Siparişlerim</div>
                 <div>Süper Fiyat, Süper Teklif</div>
@@ -14,7 +15,7 @@
                 <div>Hepsiburada Premium</div>
                 <div>Hepsiburada'da Satıcı Ol</div>
             </div>
-            <div class=" grid grid-cols-12 pb-4 mx-7 h-full">
+            <div class=" grid grid-cols-12 pb-4 mx-7">
                 <div class="col-start-1 col-span-2 flex items-center">
                     <div class="flex flex-col items-center justify-end w-full">
                         <Logo class=""/>
@@ -23,9 +24,13 @@
                         </b>
                     </div>
                 </div>
-                <div class="col-start-3 col-span-5 flex justify-center items-center">
-                    <div class=" w-5/6 h-[48px] border-solid border-2 border-[#919191] flex justify-center items-center">
+                <div class="col-start-3 col-span-5 flex justify-center items-center pt-4">
+                    <div class=" w-10/12 h-[48px] border-solid border-2 border-[#919191] rounded-md flex justify-center items-center">
+                        <div class=" px-4">
+                            <SearchIcon/>
+                        </div>
                         <input type="text" class=" w-10/12 h-full focus:outline-none" placeholder="Ürün, kategori veya marka ara">
+                        <div class="bg-[#919191] w-2/12 h-[48px] rounded-md"></div>
                     </div>
                 </div>
                 <div class="col-start-8 col-span-5 flex justify-center items-center">
