@@ -1,42 +1,19 @@
 <script setup>
-    import Logo from "@/components/layout/topBarParts/logoSection/V1.vue";
-    import SearchIcon from "@/components/icons/search.vue";
+
 </script>
+
 <template>
-    <header class=" col-span-12 bg-white grid grid-cols-12 h-full">
-        <div class="col-span-12 flex-col">
-            <div class="flex gap-6 justify-end text-[11px] font-medium pt-3 mx-7">
-                <div>Siparişlerim</div>
-                <div>Süper Fiyat, Süper Teklif</div>
-                <div>Yurt Dışından</div>
-                <div>Kampanyalar</div>
-                <div>Girişimci Kadınlar</div>
-                <div>Çözüm Merkezi</div>
-                <div>Hepsiburada Premium</div>
-                <div>Hepsiburada'da Satıcı Ol</div>
-            </div>
-            <div class=" grid grid-cols-12 pb-4 mx-7">
-                <div class="col-start-1 col-span-2 flex items-center">
-                    <div class="flex flex-col items-center justify-end w-full">
-                        <Logo class=""/>
-                        <b class="flex items-center justify-end text-sm font-semibold w-9/12">
-                            <a href="https://hepsiburada.com/premium?utm_source=web_header" class="px-1 underline-offset-4 font-bold text-[#FF6000] hover:underline">Premium'u </a> keşfet
-                        </b>
-                    </div>
-                </div>
-                <div class="col-start-3 col-span-5 flex justify-center items-center pt-4">
-                    <div class=" w-10/12 h-[48px] border-solid border-2 border-[#919191] rounded-md flex justify-center items-center">
-                        <div class=" px-4">
-                            <SearchIcon/>
-                        </div>
-                        <input type="text" class=" w-10/12 h-full focus:outline-none" placeholder="Ürün, kategori veya marka ara">
-                        <div class="bg-[#919191] w-2/12 h-[48px] rounded-md"></div>
-                    </div>
-                </div>
-                <div class="col-start-8 col-span-5 flex justify-center items-center">
-                    <div class="">login</div>
-                </div>
-            </div>
-        </div>
-    </header>
+  <div
+    class="flex gap-6 justify-end text-[11px] font-medium pt-[14px] max-w[1200px]"
+    style="margin: 0 calc(49vw - 600px)"
+  >
+    <div>Siparişlerim</div>
+    <div>Süper Fiyat, Süper Teklif</div>
+    <div>Yurt Dışından</div>
+    <div>Kampanyalar</div>
+    <div class="text-[#FF6000]">Girişimci Kadınlar</div>
+    <div>Çözüm Merkezi</div>
+    <div class="text-[#FF6000]">Hepsiburada Premium</div>
+    <div>Hepsiburada'da Satıcı Ol</div>
+  </div>
 </template>
